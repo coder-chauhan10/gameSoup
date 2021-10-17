@@ -103,36 +103,36 @@ const gamesList = {
 		},
 		image: "png"
 	},
-	a_c_val: {
-		name: "Valhalla",
-		id: "a_c_val",
-		paid: {
-			paid: true,
-			price: "₹3499.00"
-		},
-		image: "png"
-	},
-	a_plague_tale: {
-		name: "A Plague Tale",
-		id: "a_plague_tale",
-		paid: {
-			paid: true,
-			price: "₹1299.00"
-		},
-		image: "png"
-	},
-	fortnite: {
-		name: "Fortnite",
-		id: "fortnite",
-	    paid:{free: true},
-		image: "png"
-	},
-	valorant: {
-		name: "Valorant",
-		id: "valorant",
-		paid:{free: true}, 
-		image: "png"
-	},
+	// a_c_val: {
+	// 	name: "Valhalla",
+	// 	id: "a_c_val",
+	// 	paid: {
+	// 		paid: true,
+	// 		price: "₹3499.00"
+	// 	},
+	// 	image: "png"
+	// },
+	// a_plague_tale: {
+	// 	name: "A Plague Tale",
+	// 	id: "a_plague_tale",
+	// 	paid: {
+	// 		paid: true,
+	// 		price: "₹1299.00"
+	// 	},
+	// 	image: "png"
+	// },
+	// fortnite: {
+	// 	name: "Fortnite",
+	// 	id: "fortnite",
+	//     paid:{free: true},
+	// 	image: "png"
+	// },
+	// valorant: {
+	// 	name: "Valorant",
+	// 	id: "valorant",
+	// 	paid:{free: true}, 
+	// 	image: "png"
+	// },
 }
 
 module.exports = gamesList;

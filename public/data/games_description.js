@@ -277,9 +277,16 @@ const gameDescription = {
 		banner: "png",
 		image: "png",
 		description: [
-			"Experience Rockstar Games' critically acclaimed open world game, Grand Theft Auto V.",
-			"When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
-			"Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
+			"Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety of PvP modes alone or with friends. Download for free today and write your legend in the stars.",
+			"AN IMMERSIVE STORY",
+			"You are a Guardian, defender of the Last City of humanity in a solar system under siege by infamous villains. Look to the stars and stand against the darkness. Your legend begins now.",
+			"GUARDIAN CLASSES",
+			"Choose from the armored Titan, mystic Warlock, or swift Hunter.",
+			"• Disciplined and proud, Titans are capable of both aggressive assaults and stalwart defenses. Set your hammer ablaze, crack the sky with lightning, and go toe-to-toe with any opponent. Your team will stand tall behind the strength of your shield.",
+			"• Warlocks weaponize the mysteries of the universe to sustain themselves and destroy their foes. Rain devastation on the battlefield and clear hordes of enemies in the blink of an eye. Those who stand with you will know the true power of the Light.",
+			"• Agile and daring, Hunters are quick on their feet and quicker on the draw. Fan the hammer of your golden gun, flow through enemies like the wind, or strike from the darkness. Find the enemy, take aim, and end the fight before it starts.",
+			// "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
+			// "Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
 		],
 		screenshot: [
 			"s1.png",
@@ -307,9 +314,15 @@ const gameDescription = {
 		banner: "png",
 		image: "png",
 		description: [
-			"Experience Rockstar Games' critically acclaimed open world game, Grand Theft Auto V.",
-			"When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
-			"Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
+			"Create anything you can imagine. Explore randomly generated worlds. Survive dangerous mobs at night.",
+			"This collection includes the Minecraft base game and the Starter Pack compilation: Greek Mythology Mash-up, Plastic Texture Pack, Skin Pack 1, and Villains Skin Pack. Also get 700 Minecoins to use in the in-game Marketplace!",
+			"REDEMPTION INSTRUCTIONS: To redeem your Minecoin and content, you must log in to Minecraft with your Microsoft Account on the game home screen and visit in the in-game Store.",
+			// 
+			"Looking for Minecraft: Java Edition? Visit www.minecraft.net.",
+			// 
+			"Minecraft Starter Collection",
+			// "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
+			// "Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
 		],
 		screenshot: [
 			"s1.png",
@@ -337,9 +350,17 @@ const gameDescription = {
 		banner: "png",
 		image: "png",
 		description: [
-			"Experience Rockstar Games' critically acclaimed open world game, Grand Theft Auto V.",
-			"When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
-			"Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
+			"From one of gaming’s most acclaimed sagas, Gears 5’s celebrated campaign and refreshed multiplayer are optimized with new features for the Xbox Series X|S update.",
+// 
+			"Campaign: With all-out war descending, Kait Diaz breaks away to uncover her connection to the enemy and discovers the true danger to Sera – herself. New campaign features let you take your character and weapon skins into new playthroughs and enjoy bonus difficulties and modifiers.",
+			// 
+			"PvP: May the best team win! With new modes and content since Launch, Versus rewards every competitive style, from casual to pro.",
+			// 
+			"PvE: Co-operatively battle to survive. Pick your character, pick your class, and hunker down in Horde or push through in Escape.",
+			"Three-player Campaign Co-op: Battle alongside your friends in three-player online or split-screen co-op.",
+// 
+			"Accessibility: Customize your gaming experience with updated accessibility features, including full controller remapping, single stick movement, Adaptive Controller support, narrated UI and menus, improved subtitles and more..",
+			// "Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
 		],
 		screenshot: [
 			"s1.png",
@@ -367,9 +388,11 @@ const gameDescription = {
 		banner: "png",
 		image: "png",
 		description: [
-			"Experience Rockstar Games' critically acclaimed open world game, Grand Theft Auto V.",
-			"When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
-			"Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
+			"Dynamic seasons change everything at the world’s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world. Collect, modify and drive over 450 cars. Race, stunt, create and explore – choose your own path to become a Horizon Superstar. The Forza Horizon 4 Standard Edition digital bundle includes the full game of Forza Horizon 4 and the Formula Drift Car Pack.",
+// 
+			"Now optimized for the Xbox Series X|S, experience higher fidelity graphics and faster performance in Forza Horizon 4. Explore beautiful, historic Britain and drive hundreds of the world’s greatest cars in native 4K Ultra HD, now at 60 frames per second. Get behind the wheel faster than ever with quick game resume and dramatically improved load times. With Smart Delivery, the Series X update is a free download to all Forza Horizon 4 owners and Game Pass subscribers.",
+			// "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.",
+			// "Explore the stunning world of Los Santos and Blaine County in the ultimate Grand Theft Auto V experience, featuring a range of technical upgrades and enhancements for new and returning players. In addition to increased draw distances and higher resolution, players can expect a range of additions and improvements"
 		],
 		screenshot: [
 			"s1.png",
