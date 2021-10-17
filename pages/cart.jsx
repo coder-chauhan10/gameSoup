@@ -44,7 +44,7 @@ const Cart = () => {
 				</div>
 				<div className="w-[25%] bg-myOrange text-white capitalize rounded px-3 py-4">
 					<div>summary</div>
-					<table className="w-full text-left">
+					{gamesList && <table className="w-full text-left">
 						<tr>
 							<th>name</th>
 							<th>price</th>
@@ -59,7 +59,7 @@ const Cart = () => {
 							<th>total</th>
 							<td>{`₹${total}.00`}</td>
 						</tr>
-					</table>
+					</table>}
 				</div>
 			</div>
 		</Layout>
