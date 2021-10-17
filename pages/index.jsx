@@ -24,10 +24,11 @@ const Home = () => {
             </picture> */}
 
             <div className="hidden md:block" >
-              <Image
+              <img
                 src="/images/back 4 blood.svg"
-                height={540}
-                width={1440} 
+                // height={540}
+                // width={1440}
+                className="w-full" 
               />
             </div>
 
