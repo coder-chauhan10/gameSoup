@@ -97,7 +97,7 @@ const Home = () => {
               filter
               md:blur-lg blur-md
             "><span className="text-myOrange">popular</span> games</span>
-            <div className="relative flex justify-center items-center px-20 py-16 uppercase font-extralight text-3xl">
+            <div className="relative flex justify-around items-center px-20 py-16 uppercase font-extralight text-3xl">
               {popularGames.map((game, index) => (
                 <>
                   <GameCard game={game} display />

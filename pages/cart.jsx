@@ -6,11 +6,25 @@ import gamesList from '../public/data/games_list';
 const Cart = () => {
 	const [total, settotal] = useState(0);
 	const cartList = JSON.parse(localStorage.getItem("cart"));
+
+	const removeFromCart = (id) => {
+		const indexid = cartList.indexOf(id);
+
+		if (indexid == -1) {
+			return;
+		  // item is already favorite
+		} else {
+			cartList.splice(indexid, 1);
+		}
+		localStorage.setItem("cart", JSON.stringify(cartList))
+	}
+
 	// console.log(cartList)
 	useEffect(() => {
-		
+		let price = 0;
 		cartList.map((data) => {
-			const price = total + parseInt(gamesList[data].paid.price.slice(1,))
+			price = price + parseInt(gamesList[data].paid.price.slice(1,));
+			console.log(price);
 			settotal(price)
 		})
 		return () => {
@@ -25,7 +39,7 @@ const Cart = () => {
 				<div className="w-[70%]">
 					{!cartList && "nothing in cart"}
 					{cartList && cartList.map((data, key) => <>
-						<GameCard key={key} game={data} cart></GameCard>
+						<GameCard key={key} game={data} removeFromCart={removeFromCart} cart></GameCard>
 					</>)}
 				</div>
 				<div className="w-[25%] bg-myOrange text-white capitalize rounded px-3 py-4">

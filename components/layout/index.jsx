@@ -34,7 +34,7 @@ const Layout = ({title, page, children}) => {
 					</div>
 					<nav className="md:flex text-lg hidden">
 						<div className={`px-3 cursor-pointer ${(page == "home") ? "border-b-2 border-myOrange" : null}`} ><Link href="/"><a>Home</a></Link></div>
-						<div className={`px-3 cursor-pointer ${(page == "hardware") ? "border-b-2 border-myOrange" : null}`}><Link href="/hardware"><a>Hardware</a></Link></div>
+						{/* <div className={`px-3 cursor-pointer ${(page == "hardware") ? "border-b-2 border-myOrange" : null}`}><Link href="/hardware"><a>Hardware</a></Link></div> */}
 						<div className={`px-3 cursor-pointer ${(page == "games") ? "border-b-2 border-myOrange" : null}`}><Link href="/games"><a>Games</a></Link></div>
 						<div className={`px-3 cursor-pointer ${(page == "contact") ? "border-b-2 border-myOrange" : null}`}><Link href="/contact"><a>Contact</a></Link></div>
 					</nav>
@@ -46,7 +46,7 @@ const Layout = ({title, page, children}) => {
 					<div className={`absolute z-40 top-0 left-0 w-full bg-myBlue-norm duration-200 transition-transform transform ${showMenu ? null : "-translate-y-full"}`}>
 						<nav className="text-lg">
 							<div className={`py-3 grid justify-center ${(page == "home") ? "bg-myBlue-wh" : null}`} ><Link href="/" ><a>Home</a></Link></div>
-							<div className={`py-3 grid justify-center ${(page == "hardware") ? "bg-myBlue-wh" : null}`}><Link href="/hardware"><a>Hardware</a></Link></div>
+							{/* <div className={`py-3 grid justify-center ${(page == "hardware") ? "bg-myBlue-wh" : null}`}><Link href="/hardware"><a>Hardware</a></Link></div> */}
 							<div className={`py-3 grid justify-center ${(page == "games") ? "bg-myBlue-wh" : null}`}><Link href="/games"><a>Games</a></Link></div>
 							<div className={`py-3 grid justify-center ${(page == "contact") ? "bg-myBlue-wh" : null}`}><Link href="/contact"><a>Contact</a></Link></div>
 						</nav>
@@ -85,25 +85,25 @@ const Layout = ({title, page, children}) => {
 									<li className="py-1"><a href="#" target="_blank">twitter</a></li>
 								</ul>
 							</div>
-							<div>
-								<span className="uppercase py-2 font-semibold text-[#939191]">products</span>
-								<ul>
-									<li className="py-1"><Link href="/"><a>popular games</a></Link></li>
-									<li className="py-1"><Link href="/"><a>upcomming games</a></Link></li>
-									<li className="py-1"><Link href="/"><a>new arrival</a></Link></li>
-									<li className="py-1"><Link href="/"><a>play stations</a></Link></li>
-									<li className="py-1"><Link href="/"><a>xbox</a></Link></li>
-									<li className="py-1"><Link href="/"><a>accessories</a></Link></li>
-								</ul>
-							</div>
+							{/* <div> */}
+								{/* <span className="uppercase py-2 font-semibold text-[#939191]">products</span> */}
+								{/* <ul> */}
+									{/* <li className="py-1"><Link href="/"><a>popular games</a></Link></li> */}
+									{/* <li className="py-1"><Link href="/"><a>upcomming games</a></Link></li> */}
+									{/* <li className="py-1"><Link href="/"><a>new arrival</a></Link></li> */}
+									{/* <li className="py-1"><Link href="/"><a>play stations</a></Link></li> */}
+									{/* <li className="py-1"><Link href="/"><a>xbox</a></Link></li> */}
+									{/* <li className="py-1"><Link href="/"><a>accessories</a></Link></li> */}
+								{/* </ul> */}
+							{/* </div> */}
 							<div>
 								<span className="uppercase py-2 font-semibold text-[#939191]">website</span>
 								<ul>
 									<li className="py-1"><Link href="/"><a>Home</a></Link></li>
-									<li className="py-1"><Link href="/"><a>Hardware</a></Link></li>
-									<li className="py-1"><Link href="/"><a>games</a></Link></li>
-									<li className="py-1"><Link href="/"><a>contact us</a></Link></li>
-									<li className="py-1"><Link href="/"><a>cart</a></Link></li>
+									{/* <li className="py-1"><Link href="/"><a>Hardware</a></Link></li> */}
+									<li className="py-1"><Link href="/games"><a>games</a></Link></li>
+									<li className="py-1"><Link href="/contact"><a>contact us</a></Link></li>
+									<li className="py-1"><Link href="/cart"><a>cart</a></Link></li>
 								</ul>
 							</div>
 						</div>
