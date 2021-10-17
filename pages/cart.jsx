@@ -44,13 +44,13 @@ const Cart = () => {
 				</div>
 				<div className="w-[25%] bg-myOrange text-white capitalize rounded px-3 py-4">
 					<div>summary</div>
-					{gamesList && <table className="w-full text-left">
+					{gamesList && cartList && <table className="w-full text-left">
 						<tr>
 							<th>name</th>
 							<th>price</th>
 						</tr>
 						{cartList.map((data, key) => (
-							<tr>
+							<tr key={key}>
 								<td>{gamesList[data].name}</td>
 								<td>{gamesList[data].paid.price}</td>
 							</tr>
